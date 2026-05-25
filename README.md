@@ -2,29 +2,32 @@
 
 📂 PROJECT STRUCTURE
 
+Here is the project structure:
+
+```text
 sap-procurement-simulation/
 │
-├── README.md                     # Detailed documentation (template below)
-├── requirements.txt              # Python packages
-├── oop_showcase.py               # Standalone OOP demonstration (recruiters will read first)
+├── README.md
+├── requirements.txt
+├── oop_showcase.py
 │
 ├── procurement/
 │   ├── __init__.py
-│   ├── models.py                 # All OOP classes (Vendor, LineItem, Bundle, PurchaseOrder)
-│   ├── database.py               # DB connection and CRUD (SQL + Python integration)
-│   └── simulation.py             # Main script that runs the demo
+│   ├── models.py
+│   ├── database.py
+│   └── simulation.py
 │
 ├── sql/
-│   ├── schema.sql                # CREATE TABLE statements
-│   └── sample_queries.sql        # SELECT queries for reporting
+│   ├── schema.sql
+│   └── sample_queries.sql
 │
 ├── tests/
-│   ├── test_models.py            # Unit tests for OOP classes
-│   └── test_database.py          # Test DB operations
+│   ├── test_models.py
+│   └── test_database.py
 │
 └── docs/
-    └── architecture.md           # Explanation of OOP + SQL design
-
+    └── architecture.md
+```
 ## About this project
 
 I built this project to apply for the **SAP ABAP Internship at Accenture Warsaw**.  
